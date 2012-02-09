@@ -1,0 +1,25 @@
+#boards
+{
+  margin: 0 0 5px;
+  color: white;
+}
+#boards label
+{
+  display: inline-block;
+  border-radius: 4px;
+  margin: 2px;
+  padding: 3px;
+  cursor: pointer;
+}
+#boards label:not(.checked)
+{
+  background-color: gray !important;
+}
+#boards label.checked
+{
+  background-color: #990000;
+}
+#boards input
+{
+  display: none;
+}
